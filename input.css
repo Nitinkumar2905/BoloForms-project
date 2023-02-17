@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    /* margin-top:0; */
+    width: 65vw;
+    margin:50px auto;
+    max-height: 320px;
+    border: 0px solid #ddd;
+    display: flex;
+    overflow-x:auto;
+}
+
+.wrapper::-webkit-scrollbar{
+    width:0 ;
+}
+
+.wrapper .item{
+    min-width: 270px;
+    border: 1px solid #ddd;
+    height: 270px;
+    line-height: 110px;
+    text-align: center;
+    background-color: white;
+    margin-right: 22px;
+
+}
