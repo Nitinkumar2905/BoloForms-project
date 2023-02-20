@@ -34,3 +34,12 @@
     margin-right: 22px;
 
 }
+@media (max-width: 1023px) { 
+    .menudiv{
+        display: none;
+    }
+}
+
+.answerdiv{
+    display: none;
+}
