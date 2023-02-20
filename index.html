@@ -9,71 +9,74 @@
     <link rel="icon" href="https://internal-images.s3.ap-south-1.amazonaws.com/BoloForms+Logo+(1)/2.svg">
 </head>
 <body class="">
-    <header class="text-gray-600 body-font bg-gray-50 bg-opacity-95 sticky top-0 w-full flex justify-center">
-        <div class=" mx-auto w-full flex flex-wrap p-5 md:px-10 lg:px-5 flex-col lg:flex-row xl:items-center xl:w-[90%] ">
-          <div class="relative flex flex-row lg:mx-auto w-[95%] sm:w-full lg:w-fit items-center ">
+    <!-- Header section -->
+    <header class="text-gray-600 body-font bg-gray-50 z-50 bg-opacity-90 sticky top-0 w-full flex justify-center">
+        <div class="mx-auto w-full flex flex-wrap p-3 lg:p-5 md:px-10 lg:px-5 flex-col lg:flex-row xl:items-center xl:w-[90%] ">
+          <!-- logo and hamburger -->
+          <div class="relative lg:-left-4 xl:-left-24 flex flex-row lg:mx-auto w-[95%] sm:w-full lg:w-fit items-center ">
             <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 w-full lg:w-fit">
             <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-violet-500 rounded-full" viewBox="0 0 24 24">
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
             </svg> -->
               <img class="h-12" src="https://internal-images.s3.ap-south-1.amazonaws.com/BoloForms+Logo+(1)/2.svg" alt="">
-              <span class="ml-3 lg:ml-0 text-xl">BoloForms</span>
+              <span class="ml-3 lg:ml-0 text-xl xl:text-2xl cursor-pointer font-semibold">BoloForms</span>
             </a>
             <div class="">
               <div class="absolute flex lg:hidden right-0 top-3 hover:cursor-pointer"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" style="font-size:24px" class="cursor-pointer" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z"></path></svg></div>
               <div></div>
             </div>
           </div>  
-
+          <!-- Nav icon section -->
           <nav class="hidden md:mr-auto md:ml-4 md:py-1	lg:flex flex-wrap items-center text-base justify-center">
-            <a class="mr-5 font-sans font-medium text-lg mx-2 text-gray-600 hover:text-black cursor-pointer">Products</a>
-            <a class="mr-5 font-sans font-medium text-lg mx-2 text-gray-600 hover:text-black cursor-pointer">Pricing</a>
-            <a class="mr-5 font-sans font-medium text-lg mx-2 text-gray-600 hover:text-black cursor-pointer">Guides</a>
-            <a class="mr-5 font-sans font-medium text-lg mx-2 text-gray-600 hover:text-black cursor-pointer">Templates</a>
+            <a class="mr-5 font-sans font-medium text-lg xl:text-xl mx-2 text-gray-500 hover:duration-500 hover:text-black cursor-pointer">Products</a>
+            <a class="mr-5 font-sans font-medium text-lg xl:text-xl mx-2 text-gray-500 hover:duration-500 hover:text-black cursor-pointer">Pricing</a>
+            <a class="mr-5 font-sans font-medium text-lg xl:text-xl mx-2 text-gray-500 hover:duration-500 hover:text-black cursor-pointer">Guides</a>
+            <a class="mr-5 font-sans font-medium text-lg xl:text-xl mx-2 text-gray-500 hover:duration-500 hover:text-black cursor-pointer">Templates</a>
           </nav>
-          <button class="hidden lg:inline-flex items-center bg-gray-100 rounded-md mx-3 border-2 text-violet-500 hover:text-white hover:bg-violet-600 border-violet-500 py-1 px-4 focus:outline-none hover:border-gray-200 text-xl mt-4 md:mt-0">Install Now
+          <!-- buttons -->
+          <button class="hidden lg:inline-flex hover:duration-500 items-center bg-gray-100 rounded-md mx-3 border-2 text-violet-500 hover:text-white hover:bg-violet-700 border-violet-500 py-1 px-4 focus:outline-none hover:border-gray-200 text-xl mt-4 md:mt-0">Install Now
           </button>
-          <button class="hidden lg:inline-flex items-center bg-violet-500 text-white rounded-md mx-3 border-2 hover:bg-violet-600 border-violet-500 py-1 px-4 focus:outline-none hover:border-violet-600 font-sans text-xl  mt-4 md:mt-0">BoloForms Premium
+          <button class="hidden lg:inline-flex hover:duration-500 items-center bg-violet-500 text-white rounded-md mx-3 border-2 hover:bg-violet-700 border-violet-500 py-1 px-4 focus:outline-none hover:border-violet-600 font-sans text-xl  mt-4 md:mt-0">BoloForms Premium
           </button>
         </div>
     </header>
-
-    <section class="text-gray-600 body-font mt-5 sm:mt-10 h-full w-[95%] mx-auto">
-      <div class=" mx-auto flex px-5 py-12 lg:flex-row flex-col items-center space-y-12 lg:space-y-0">
+    <!-- Hero section -->
+    <section class="text-gray-600 body-font mt-5 sm:mt-10 h-full w-[95%] lg:w-[90%] mx-auto">
+      <div class=" mx-auto flex px-5 py-12 lg:flex-row flex-col items-center space-y-0 md:space-y-12 lg:space-y-0">
         <div class=" lg:w-[70%] lg:mx-auto flex flex-col md:items-center lg:items-start mb-16 md:mb-8 lg:mb-0 items-center text-center">
-          <h1 class="font-sans text-2xl sm:text-3xl lg:text-2xl mb-4 font-bold text-gray-900 lg:text-start">Transform Google Forms Into
+          <h1 class="font-sans text-2xl sm:text-3xl lg:text-2xl xl:text-4xl mb-4 font-bold text-gray-900 lg:text-start">Transform Google Forms Into
             <br class="hidden lg:inline-block">Interactive Workflows
           </h1>
-          <p class="mb-8 leading-relaxedfont-sans text-base sm:text-lg lg:text-base text-black font-normal text-left mx-auto w-[80%] lg:w-full lg:pr-12 ">BoloForms is a Google Forms add on that allows you to add conditional logic to your forms. With BoloForms, you can create interactive workflows, approval flows & automate processes.</p>
+          <p class=" mb-8 leading-relaxedfont-sans text-base sm:text-lg lg:text-base xl:text-xl text-black font-normal text-left mx-auto w-[90%] lg:w-full lg:pr-12 ">BoloForms is a Google Forms add on that allows you to add conditional logic to your forms. With BoloForms, you can create interactive workflows, approval flows & automate processes.</p>
           <div class="flex justify-center">
             <button class="inline-flex items-center text-white font-sans bg-violet-500 border-0 py-2 px-4 focus:outline-none hover:bg-violet-600 rounded text-xl lg:text-lg font-medium"> <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" class="mr-4 text-xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M537.6 226.6c4.1-10.7 6.4-22.4 6.4-34.6 0-53-43-96-96-96-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32c-88.4 0-160 71.6-160 160 0 2.7.1 5.4.2 8.1C40.2 219.8 0 273.2 0 336c0 79.5 64.5 144 144 144h368c70.7 0 128-57.3 128-128 0-61.9-44-113.6-102.4-125.4zm-132.9 88.7L299.3 420.7c-6.2 6.2-16.4 6.2-22.6 0L171.3 315.3c-10.1-10.1-2.9-27.3 11.3-27.3H248V176c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v112h65.4c14.2 0 21.4 17.2 11.3 27.3z"></path></svg> Install For Free</button>
             
           </div>
         </div>
 
-        <div class="lg:max-w-lg lg:w-5/6 xl:w-full md:w-fit w-3/4 overflow-hidden mx-auto border-[3px] border-violet-500 rounded-lg">
+        <div class="lg:max-w-lg lg:w-5/6 xl:w-full md:w-fit w-[95%] sm:w-fit overflow-hidden mx-auto border-[3px] border-violet-500 rounded-lg">
           <iframe width="512" height="300" src="https://www.youtube.com/embed/riiUkCRpIio" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
     </section>
-
+    <!-- Scroll bar section -->
     <section class="my-5 sm:my-10 md:my-20 ">
       <div class="font-sans text-black text-3xl md:text-4xl font-bold flex justify-center">BoloForms Is Used By</div>
       <main class="wrapper">
-        <div class="item rounded-lg cursor-pointer"><img class="h-56 mx-auto" src="https://www.boloforms.com/_next/static/media/1.890362c3.svg" alt="img"></div>
-        <div class="item rounded-lg cursor-pointer"><img class="h-56 mx-auto" src="https://www.boloforms.com/_next/static/media/2.0b0df285.svg" alt="img"></div>
-        <div class="item rounded-lg cursor-pointer"><img class="h-56 mx-auto" src="https://www.boloforms.com/_next/static/media/3.8cf4b5f3.svg" alt="img"></div>
-        <div class="item rounded-lg cursor-pointer"><img class="h-56 mx-auto" src="https://www.boloforms.com/_next/static/media/4.b84353dc.svg" alt="img"></div>
-        <div class="item rounded-lg cursor-pointer"><img class="h-56 mx-auto" src="https://www.boloforms.com/_next/static/media/5.9b049047.svg" alt="img"></div>
+        <div class="item rounded-lg cursor-pointer my-auto"><img class="h-56 mx-auto" src="https://www.boloforms.com/_next/static/media/1.890362c3.svg" alt="img"></div>
+        <div class="item rounded-lg cursor-pointer my-auto"><img class="h-56 mx-auto" src="https://www.boloforms.com/_next/static/media/2.0b0df285.svg" alt="img"></div>
+        <div class="item rounded-lg cursor-pointer my-auto"><img class="h-56 mx-auto" src="https://www.boloforms.com/_next/static/media/3.8cf4b5f3.svg" alt="img"></div>
+        <div class="item rounded-lg cursor-pointer my-auto"><img class="h-56 mx-auto" src="https://www.boloforms.com/_next/static/media/4.b84353dc.svg" alt="img"></div>
+        <div class="item rounded-lg cursor-pointer my-auto"><img class="h-56 mx-auto" src="https://www.boloforms.com/_next/static/media/5.9b049047.svg" alt="img"></div>
       </main>
     </section>
-
+    <!-- Steps to use boloforms section -->
     <section class="my-20">
       <div class="font-sans text-black text-2xl md:text-4xl font-bold flex justify-center">How does BoloForms work?</div>
       <span class="mt-4 flex justify-center text-sm md:text-base">Set up your first workflow in just 3 easy steps</span>
-      <main class="flex flex-col lg:flex-row mx-auto w-5/6">
+      <main class="flex flex-col lg:flex-row mx-auto w-5/6 xl:w-[95%]">
         <div class="flex flex-col">
-          <div class=" rounded-lg cursor-pointer mx-4 border-[1px] border-gray-100 my-6"><img class="h-96 mx-auto mt-6 mb-4 hover:mb-6 hover:mt-4" src="https://www.boloforms.com/_next/static/media/2.2709e204.svg" alt="img"></div>
+          <div class=" rounded-lg cursor-pointer mx-4"><img class="h-96 mx-auto mt-12 hover:-translate-y-5 transition-transform duration-300 ease-out" src="https://www.boloforms.com/_next/static/media/2.2709e204.svg" alt="img"></div>
           <div class='flex flex-col items-center mb-6'>
             <h1 class="font-semibold text-xl font-sans">Step 1:</h1>
             <span class="text-lg lg:text-base font-sans font-normal px-2 text-center">Choose a template or add questions to create your Google Form.</span>
@@ -81,7 +84,7 @@
         </div>
 
         <div class="flex flex-col">
-          <div class=" rounded-lg cursor-pointer mx-4 border-[1px] border-gray-100 my-6"><img class="h-96 mx-auto mt-6 mb-4 hover:mb-6 hover:mt-4" src="https://www.boloforms.com/_next/static/media/1.b2cc23b0.svg" alt="img"></div>
+          <div class=" rounded-lg cursor-pointer mx-4"><img class="h-96 mx-auto mt-12 hover:-translate-y-3 transition-transform duration-300 ease-out" src="https://www.boloforms.com/_next/static/media/1.b2cc23b0.svg" alt="img"></div>
           <div class="flex flex-col items-center mb-6">
             <h1 class="font-semibold text-xl font-sans">Step 2:</h1>
             <span class="text-lg lg:text-base font-sans font-normal px-2 text-center">Enable Single/Multi Step approval and add necessary approvers!</span>
@@ -89,7 +92,7 @@
         </div>
 
         <div class="flex flex-col">
-          <div class=" rounded-lg cursor-pointer mx-4 border-[1px] border-gray-100 my-6"><img class="h-96 mx-auto mt-6 mb-4 hover:mb-6 hover:mt-4" src="https://www.boloforms.com/_next/static/media/3.1a7ec00e.svg" alt="img"></div>
+          <div class=" rounded-lg cursor-pointer mx-4"><img class="h-96 mx-auto mt-12 hover:-translate-y-3 transition-transform duration-300 ease-out" src="https://www.boloforms.com/_next/static/media/3.1a7ec00e.svg" alt="img"></div>
           <div class="flex flex-col items-center mb-6">
             <h1 class="font-semibold text-xl font-sans">Step 3:</h1>
             <span class="text-lg lg:text-base font-sans font-normal px-2 text-center">Now you can enable the workflow and share the Google Form.</span>
@@ -97,26 +100,26 @@
         </div>
       </main>
     </section>
-
-    <section class="flex flex-col py-12 md:py-0 my-0 md:my-12 w-[95%] lg:w-[80%] mx-auto">
-      <main class="flex flex-col md:flex-row justify-center shadow-gray-200 shadow-2xl rounded-lg h-[60vh] md:h-[40vh] items-center">
-        <div class="flex w-[30%] md:w-[20%] md:mx-6"><img class=" rounded-full" src="https://www.boloforms.com/_next/static/media/repa.483a1471.jpeg" alt="logo"></div>
+    <!-- Feedback Repa Mandela -->
+    <section class="flex flex-col py-12 md:py-0 my-0 md:my-0 lg:my-6 w-[95%] lg:w-[80%] xl:w-[90%] mx-auto">
+      <main class="flex flex-col md:flex-row justify-center shadow-gray-200 shadow-2xl rounded-lg h-[60vh] md:h-[30vh] lg:h-[35vh] items-center">
+        <div class="flex w-[30%] md:w-[15%] md:mx-6"><img class=" rounded-full" src="https://www.boloforms.com/_next/static/media/repa.483a1471.jpeg" alt="logo"></div>
         <div class=" flex flex-col w-[90%]">
           <span class="flex font-medium font-sans mx-auto text-lg md:hidden">Repa Mendala</span>
           <span class="mx-auto md:mx-0"><img class=" my-2  h-6 w-36" src="https://www.boloforms.com/_next/static/media/Stars.885edd0c.svg" alt="logo"></span>
 
-          <p class="text-base text-center md:text-start md:pr-4">"Boloforms has been an absolute lifesaver for me. It makes workflow tasks much easier and helps to ensure that everything runs smoothly. I love how it automates tasks and eliminates manual processes, saving me time and effort. It's a great Google Workflow software and is well worth the money!"</p>
+          <p class="text-base text-center md:text-start md:pr-4 xl:pr-12">"Boloforms has been an absolute lifesaver for me. It makes workflow tasks much easier and helps to ensure that everything runs smoothly. I love how it automates tasks and eliminates manual processes, saving me time and effort. It's a great Google Workflow software and is well worth the money!"</p>
           <span class="hidden md:flex font-medium font-sans text-lg">Repa Mendala</span>
         </div>
       </main>
 
       <main class="flex flex-col items-center h-[30vh] md:h-[20vh] my-8 lg:my-16">
         <div class="flex flex-col items-center md:flex-row w-full justify-center space-y-4 md:space-y-0 md:space-x-4">
-          <button class=" flex items-center border-2 border-violet-600 hover:bg-violet-600 bg-violet-500 font-sans text-lg md:text-lg font-medium text-white px-5 py-2 rounded-md"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" class="mr-4 text-xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M537.6 226.6c4.1-10.7 6.4-22.4 6.4-34.6 0-53-43-96-96-96-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32c-88.4 0-160 71.6-160 160 0 2.7.1 5.4.2 8.1C40.2 219.8 0 273.2 0 336c0 79.5 64.5 144 144 144h368c70.7 0 128-57.3 128-128 0-61.9-44-113.6-102.4-125.4zm-132.9 88.7L299.3 420.7c-6.2 6.2-16.4 6.2-22.6 0L171.3 315.3c-10.1-10.1-2.9-27.3 11.3-27.3H248V176c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v112h65.4c14.2 0 21.4 17.2 11.3 27.3z"></path></svg>Install For Free</button>
-          <button class="border-2 text-violet-500 font-sans text-lg font-medium px-5 py-2  rounded-md border-violet-500">BoloForms Premium</button>
+          <button class=" flex items-center border-2 hover:duration-500 border-violet-600 hover:bg-violet-600 bg-violet-500 font-sans text-lg md:text-lg font-medium text-white px-5 py-2 rounded-md"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" class="mr-4 text-xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M537.6 226.6c4.1-10.7 6.4-22.4 6.4-34.6 0-53-43-96-96-96-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32c-88.4 0-160 71.6-160 160 0 2.7.1 5.4.2 8.1C40.2 219.8 0 273.2 0 336c0 79.5 64.5 144 144 144h368c70.7 0 128-57.3 128-128 0-61.9-44-113.6-102.4-125.4zm-132.9 88.7L299.3 420.7c-6.2 6.2-16.4 6.2-22.6 0L171.3 315.3c-10.1-10.1-2.9-27.3 11.3-27.3H248V176c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v112h65.4c14.2 0 21.4 17.2 11.3 27.3z"></path></svg>Install For Free</button>
+          <button class="border-2 text-violet-500 hover:text-violet-700 font-sans text-lg font-medium px-5 py-2  rounded-md border-violet-500">BoloForms Premium</button>
         </div>
 
-        <div class="flex flex-col items-center md:items-start  lg:flex-row lg:justify-center w-full md:w-fit lg:w-full space-y-2 lg:space-y-0 lg:space-x-12 my-8 md:my-6">
+        <div class="flex flex-col mx-auto w-[90%] items-start  lg:flex-row lg:justify-center sm:w-full md:w-fit lg:w-full space-y-2 lg:space-y-0 lg:space-x-12 my-8 md:my-6">
           <div class="flex">
             <img class="h-6 mx-1" src="https://img.icons8.com/doodle/48/null/checkmark.png"/>
             <span class="font-sans font-medium text-lg ">Trusted by 50,000+ Businesses</span>
@@ -135,7 +138,7 @@
       </main>
 
     </section>
-
+    <!-- Features section -->
     <section class="flex flex-col items-center w-[90%] mx-auto my-6 md:my-0 lg:space-y-6">
       <div class="flex flex-col mx-auto items-center space-y-1 mt-12">
         <h1 class="font-medium font-sans text-2xl sm:text-3xl">Features</h1>
@@ -144,19 +147,19 @@
 
       <main class="flex flex-col my-3 space-y-12 ">
         <div class="flex flex-col lg:flex-row my-2 w-full lg:h-[40vh] space-y-12 lg:space-y-0 lg:space-x-6">
-          <div class="flex flex-col items-start space-y-1 rounded-md hover:shadow-md hover:shadow-green-500 cursor-pointer w-full px-3">
+          <div class="flex flex-col items-start space-y-1 rounded-md hover:shadow-md hover:shadow-green-500 hover:duration-300 cursor-pointer w-full px-3">
             <span><img class="h-12 my-2 mx-1" class="h-12" src="https://www.boloforms.com/_next/static/media/pr_agiledeploy.b988c9c8.svg" alt=""></span>
             <h1 class="font-sans text-xl font-bold">Get started in less than 5 minutes</h1>
             <p class="text-lg font-sans font-normal">Just using an existing Google Form, add approvers, and we'll notify them via email when submissions are made</p>
           </div>
 
-          <div class="flex flex-col items-start space-y-1 rounded-md hover:shadow-md hover:shadow-orange-500 cursor-pointer w-full px-3">
+          <div class="flex flex-col items-start space-y-1 rounded-md hover:shadow-md hover:shadow-orange-500 hover:duration-300 cursor-pointer w-full px-3">
             <span><img class="h-12 my-2 mx-1" src="https://www.boloforms.com/_next/static/media/pr_dyncaseroute.02285ff2.svg" alt=""></span>
             <h1 class="font-sans text-xl font-bold">Multi-level workflows</h1>
             <p class="text-lg font-sans font-normal">To ensure that your executives do not approve a document until it has been reviewed and accepted by other employees, you can set up multi-level approval processes.</p>
           </div>
 
-          <div class="flex flex-col items-start space-y-1 rounded-md hover:shadow-md hover:shadow-blue-500 cursor-pointer w-full px-3">
+          <div class="flex flex-col items-start space-y-1 rounded-md hover:shadow-md hover:shadow-blue-500 hover:duration-300 cursor-pointer w-full px-3">
             <span><img class="h-12 my-2 mx-1" src="https://www.boloforms.com/_next/static/media/pr_dynbusrules.572419de.svg" alt=""></span>
             <h1 class="font-sans text-xl font-bold">Dynamic Recipients</h1>
             <p class="text-lg font-sans font-normal">Approvers can be selected based on the answers to a form response or entered manually by the requestor.</p>
@@ -164,17 +167,17 @@
         </div>
 
         <div class="flex flex-col lg:flex-row my-2 w-full lg:h-[40vh] space-y-12 lg:space-y-0 lg:space-x-6">
-          <div class="flex flex-col items-start space-y-1 rounded-md hover:shadow-md hover:shadow-blue-500 cursor-pointer w-full px-3">
+          <div class="flex flex-col items-start space-y-1 rounded-md hover:shadow-md hover:shadow-blue-500 hover:duration-300 cursor-pointer w-full px-3">
             <span><img class="h-12 my-2 mx-1" src="https://www.boloforms.com/_next/static/media/pr_socialtask.06e17c13.svg" alt=""></span>
             <h1 class="font-sans text-xl font-bold">Role Based Workflows</h1>
             <p class="text-lg font-sans font-normal">Assign the following roles to your recipients: Approver, Receive a Copy, and Send Final Email Only.</p>
           </div>
-          <div class="flex flex-col items-start space-y-1 rounded-md hover:shadow-md hover:shadow-sky-500 cursor-pointer w-full px-3">
+          <div class="flex flex-col items-start space-y-1 rounded-md hover:shadow-md hover:shadow-sky-500 hover:duration-300 cursor-pointer w-full px-3">
             <span><img class="h-12 my-2 mx-1" src="https://www.boloforms.com/_next/static/media/pr_visualprcdesign.0ff90171.svg" alt=""></span>
             <h1 class="font-sans text-xl font-bold">Conditional Logic</h1>
             <p class="text-lg font-sans font-normal">To prevent unnecessary work for approvers, set logic with your approvals to ensure approvers only receive the requests that are relevant to them</p>
           </div>
-          <div class="flex flex-col items-start space-y-1 rounded-md hover:shadow-md hover:shadow-green-500 cursor-pointer w-full px-3">
+          <div class="flex flex-col items-start space-y-1 rounded-md hover:shadow-md hover:shadow-green-500 hover:duration-300 cursor-pointer w-full px-3">
             <span><img class="h-12 my-2 mx-1" src="https://www.boloforms.com/_next/static/media/pr_instaaccess.e822dad7.svg" alt=""></span>
             <h1 class="font-sans text-xl font-bold">One-click Approvals</h1>
             <p class="text-lg font-sans font-normal">Notification emails are sent to users and can be approved with a single click.</p>
@@ -182,18 +185,18 @@
         </div>
         
         <div class="flex flex-col lg:flex-row my-2 w-full lg:h-[40vh] space-y-12 lg:space-y-0 lg:space-x-6">
-          <div class="flex flex-col items-start space-y-1 rounded-md hover:shadow-md hover:shadow-pink-500 cursor-pointer w-full px-3">
+          <div class="flex flex-col items-start space-y-1 rounded-md hover:shadow-md hover:shadow-pink-500 hover:duration cursor-pointer w-full px-3">
             <span><img class="h-12 my-2 mx-1" src="https://www.boloforms.com/_next/static/media/pr_intuserinter.41c7f4bc.svg" alt=""></span>
             <h1 class="font-sans text-xl font-bold">Responsive design</h1>
             <p class="text-lg font-sans font-normal">It is designed to be mobile-first, and seamlessly works on desktop and tablet as well.</p>
           </div>
-          <div class="flex flex-col items-start space-y-1 rounded-md hover:shadow-md hover:shadow-green-500 cursor-pointer w-full px-3">
+          <div class="flex flex-col items-start space-y-1 rounded-md hover:shadow-md hover:shadow-green-500 hover:duration cursor-pointer w-full px-3">
             <span><img class="h-12 my-2 mx-1" src="https://www.boloforms.com/_next/static/media/pr_processoptim.f6216ec3.svg" alt=""></span>
             <h1 class="font-sans text-xl font-bold">Enterprise grade security</h1>
             <p class="text-lg font-sans font-normal">Majority of data stored in your spreadsheet. This ensures you have the complete control of your data with end to end encryption.
             </p>
           </div>
-          <div class="flex flex-col items-start space-y-1 rounded-md hover:shadow-md hover:shadow-violet-500 cursor-pointer w-full px-3">
+          <div class="flex flex-col items-start space-y-1 rounded-md hover:shadow-md hover:shadow-violet-500 hover:duration cursor-pointer w-full px-3">
             <span><img class="h-12 my-2 mx-1" src="https://www.boloforms.com/_next/static/media/pr_dashboard.64597267.svg" alt=""></span>
             <h1 class="font-sans text-xl font-bold">Custom Dashboard</h1>
             <p class="text-lg font-sans font-normal">Track approvals of various forms from a single place! See the approval process for each request in real-time</p>
@@ -201,22 +204,22 @@
         </div>
       </main>
     </section>
-
-    <section class="flex flex-col my-12 w-[90%] lg:w-[80%] mx-auto h-full">
-      <main class="flex flex-col md:flex-row justify-center shadow-gray-200 shadow-2xl rounded-lg lg:h-[40vh] items-center pb-6">
+    <!-- Feedback section alaa khaled -->
+    <section class="flex flex-col my-12 w-[90%] lg:w-[80%] xl:w-[90%] mx-auto h-full">
+      <main class="flex flex-col md:flex-row justify-center shadow-gray-200 shadow-2xl py-5 rounded-lg lg:h-[40vh] items-center pb-6">
         <div class="flex md:w-[20%] py-6 justify-center"><img class="h-24 w-24 rounded-full" src="https://www.boloforms.com/_next/static/media/alaa.a9f02030.jpeg" alt="logo"></div>
         <span class="flex md:hidden font-medium font-sans text-lg  ">Alaa Khaled</span>
-        <div class=" flex flex-col w-[80%]">
+        <div class=" flex flex-col w-[90%]">
           <span class="mx-auto md:mx-0"><img class="h-4 my-2" src="https://www.boloforms.com/_next/static/media/Stars.885edd0c.svg" alt="logo"></span>
-          <p class="text-base lg:text-lg py-4 md:py-0 md:pr-4">"Boloforms has changed the way my team and I work. We used to have a very inefficient workflow, but Boloforms has streamlined it and allowed us to get our daily tasks done in a fraction of the time. Plus, it's incredibly user friendly and easy to understand. I highly recommend Boloforms for anyone who needs an efficient Google workflow software!"</p>
+          <p class="text-base lg:text-lg py-4 md:py-0 md:pr-4 xl:pr-12">"Boloforms has changed the way my team and I work. We used to have a very inefficient workflow, but Boloforms has streamlined it and allowed us to get our daily tasks done in a fraction of the time. Plus, it's incredibly user friendly and easy to understand. I highly recommend Boloforms for anyone who needs an efficient Google workflow software!"</p>
           <span class="hidden md:flex font-medium font-sans text-lg">Alaa Khaled</span>
         </div>
       </main>
 
       <main class="flex flex-col items-center h-[20vh] my-16">
         <div class="flex flex-col items-center space-y-4 md:space-y-0 md:flex-row w-full justify-center space-x-0 md:space-x-4">
-          <button class=" flex items-center border-2 border-violet-600 hover:bg-violet-600 bg-violet-500 font-sans text-lg font-medium text-white px-5 py-2 rounded-md"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" class="mr-4 text-xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M537.6 226.6c4.1-10.7 6.4-22.4 6.4-34.6 0-53-43-96-96-96-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32c-88.4 0-160 71.6-160 160 0 2.7.1 5.4.2 8.1C40.2 219.8 0 273.2 0 336c0 79.5 64.5 144 144 144h368c70.7 0 128-57.3 128-128 0-61.9-44-113.6-102.4-125.4zm-132.9 88.7L299.3 420.7c-6.2 6.2-16.4 6.2-22.6 0L171.3 315.3c-10.1-10.1-2.9-27.3 11.3-27.3H248V176c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v112h65.4c14.2 0 21.4 17.2 11.3 27.3z"></path></svg>Install For Free</button>
-          <button class="flex items-center border-2 text-violet-500 font-sans text-lg font-medium px-5 py-2 rounded-md border-violet-500">
+          <button class=" flex items-center border-2 hover:duration-500 border-violet-600 hover:bg-violet-600 bg-violet-500 font-sans text-lg font-medium text-white px-5 py-2 rounded-md"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" class="mr-4 text-xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M537.6 226.6c4.1-10.7 6.4-22.4 6.4-34.6 0-53-43-96-96-96-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32c-88.4 0-160 71.6-160 160 0 2.7.1 5.4.2 8.1C40.2 219.8 0 273.2 0 336c0 79.5 64.5 144 144 144h368c70.7 0 128-57.3 128-128 0-61.9-44-113.6-102.4-125.4zm-132.9 88.7L299.3 420.7c-6.2 6.2-16.4 6.2-22.6 0L171.3 315.3c-10.1-10.1-2.9-27.3 11.3-27.3H248V176c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v112h65.4c14.2 0 21.4 17.2 11.3 27.3z"></path></svg>Install For Free</button>
+          <button class="flex items-center border-2 text-violet-500 hover:text-violet-700 font-sans text-lg font-medium px-5 py-2 rounded-md border-violet-500">
             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="mr-4 text-xl " height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M477.64 38.26a4.75 4.75 0 00-3.55-3.66c-58.57-14.32-193.9 36.71-267.22 110a317 317 0 00-35.63 42.1c-22.61-2-45.22-.33-64.49 8.07C52.38 218.7 36.55 281.14 32.14 308a9.64 9.64 0 0010.55 11.2l87.31-9.63a194.1 194.1 0 001.19 19.7 19.53 19.53 0 005.7 12L170.7 375a19.59 19.59 0 0012 5.7 193.53 193.53 0 0019.59 1.19l-9.58 87.2a9.65 9.65 0 0011.2 10.55c26.81-4.3 89.36-20.13 113.15-74.5 8.4-19.27 10.12-41.77 8.18-64.27a317.66 317.66 0 0042.21-35.64C441 232.05 491.74 99.74 477.64 38.26zM294.07 217.93a48 48 0 1167.86 0 47.95 47.95 0 01-67.86 0z"></path><path d="M168.4 399.43c-5.48 5.49-14.27 7.63-24.85 9.46-23.77 4.05-44.76-16.49-40.49-40.52 1.63-9.11 6.45-21.88 9.45-24.88a4.37 4.37 0 00-3.65-7.45 60 60 0 00-35.13 17.12C50.22 376.69 48 464 48 464s87.36-2.22 110.87-25.75A59.69 59.69 0 00176 403.09c.37-4.18-4.72-6.67-7.6-3.66z"></path></svg>
             BoloForms Premium</button>
         </div>
@@ -240,9 +243,9 @@
       </main>
 
     </section>
-
-    <section class="flex flex-col my-32 md:my-12 w-[80%] md:w-[90%] mx-auto">
-      <main class="flex flex-col md:flex-row justify-center shadow-gray-200 shadow-2xl rounded-lg h-[50vh] lg:h-[30vh] items-center">
+    <!-- Feedback section deepak -->
+    <section class="flex flex-col my-32 md:my-0 lg:my-6 w-[95%] md:w-[95%] xl:w-[90%] mx-auto">
+      <main class="flex flex-col md:flex-row justify-center shadow-gray-200 shadow-2xl rounded-lg py-5 lg:h-[30vh] items-center">
         <div class="flex  md:w-[20%] md:mx-6 justify-center"><img class="h-32 w-32 rounded-full" src="https://www.boloforms.com/_next/static/media/deepak.e041dab0.jpeg" alt="logo"></div>
         <span class="flex md:hidden font-medium font-sans text-lg mt-2">Deepak S (Solero Corporation)</span>
         <div class=" flex flex-col w-[80%]">
@@ -252,20 +255,64 @@
         </div>
       </main>
       
-      <main class="flex flex-col lg:flex-row lg:h-[50vh] justify-center mt-32">
-        <div class="flex w-full border-2"></div>
-        <div class="flex flex-col w-fullm-2 space-y-3">
-          <h1 class="text-2xl  md:text-3xl lg:text-4xl font-sans font-bold">An End-To-End Workflow Platform For All Your Business Needs</h1>
-          <span class="md:text-lg font-sans md:font-medium">1000+ companies-from Startups to Fortune 500s use BoloForms Approvals to build and manage business processes across departments.
+      <main class="flex flex-col lg:flex-row lg:h-full justify-center mt-32 lg:items-end lg:flex-wrap xl:flex-nowrap ">
+        <div class="flex flex-col w-full mr-12 lg:h-full">
+          <div class="flex lg:h-[7vh] xl:h-[5vh] border-0 justify-start space-x-2 m-2">
+            <div class="w-[12%] rounded-md border-gray-500 bg-gradient-to-l from-yellow-100 to-white"></div>
+            <div class="md:w-[30%] lg:w-[40%] rounded-md border-gray-500 bg-pink-100 text-center lg:text-lg py-2 lg:py-1 px-4 lg:px-2  text-pink-600">Approval Management</div>
+          </div>
+          
+          <div class="flex lg:h-[7vh] xl:h-[5vh] border-0 justify-start space-x-2 m-2">
+            <div class="w-[18%] rounded-md border-gray-500 bg-gradient-to-l from-green-100 to-white"></div>
+            <div class="md:w-[35%] lg:w-[55%] rounded-md border-gray-500 bg-sky-100 text-center lg:text-lg py-2 lg:py-1 px-4 lg:px-2 text-blue-600">Sales Quotation Approval</div>
+          </div>
+
+          <div class="flex lg:h-[7vh] xl:h-[5vh] border-0 justify-start space-x-2 m-2">
+            <div class="w-[10%] rounded-md border-gray-500 bg-gradient-to-l from-violet-100 to-white"></div>
+            <div class="md:w-[35%] lg:w-[46%] rounded-md border-gray-500 bg-orange-100 text-center lg:text-lg py-2 lg:py-1 px-4 lg:px-2 text-orange-600">Registration Management</div>
+          </div>
+
+          <div class="flex lg:h-[7vh] xl:h-[5vh] border-0 justify-start space-x-2 m-2">
+            <div class="w-[15%] rounded-md border-gray-500 bg-gradient-to-l from-red-100 to-white"></div>
+            <div class="md:w-[40%] lg:w-[50%] rounded-md border-gray-500 bg-green-100 text-center lg:text-lg py-2 lg:py-1 px-4 lg:px-2 text-green-600">Performance Appraisal Request</div>
+          </div>
+
+          <div class="flex lg:h-[7vh] xl:h-[5vh] border-0 justify-start space-x-2 m-2">
+            <div class="w-[8%] rounded-md border-gray-500 bg-gradient-to-l from-violet-100 to-white"></div>
+            <div class="md:w-[30%] lg:w-[37%] rounded-md border-gray-500 bg-pink-100 text-center lg:text-lg py-2 lg:py-1 px-4 lg:px-2 text-pink-600">Qualify Sales Leads</div>
+            <div class="md:w-[30%] lg:w-[37%] rounded-md border-gray-500 bg-violet-100 text-center lg:text-lg py-2 lg:py-1 px-4 lg:px-2 text-violet-600">Expense Approval</div>
+          </div>
+
+          <div class="flex lg:h-[7vh] xl:h-[5vh] border-0 justify-start space-x-2 m-2">
+            <div class="w-[7%] rounded-md border-gray-500 bg-gradient-to-l from-yellow-100"></div>
+            <div class="md:w-[37%] lg:w-[45%] rounded-md border-gray-500 bg-violet-100 text-center lg:text-lg py-2 lg:py-1 px-4 lg:px-2 text-violet-600">Customer Request Approval</div>
+            <div class="md:w-[34%] lg:w-[45%] rounded-md border-gray-500 bg-orange-100 text-center lg:text-lg py-2 lg:py-1 px-4 lg:px-2 text-violet-600">Field Request Approval</div>
+          </div>
+
+          <div class="flex lg:h-[7vh] xl:h-[5vh] border-0 justify-start space-x-2 m-2">
+            <div class="w-[7%] rounded-md border-gray-500 bg-gradient-to-l from-pink-100"></div>
+            <div class="md:w-[28%] lg:w-[30%] rounded-md border-gray-500 bg-blue-100 text-center lg:text-lg py-2 lg:py-1 px-4 lg:px-2 text-blue-600">Travel Request</div>
+            <div class="md:w-[35%] lg:w-[40%] rounded-md border-gray-500 bg-green-100 text-center lg:text-lg py-2 lg:py-1 px-4 lg:px-2 text-green-600">Vender Registration</div>
+          </div>
+
+          <div class="flex lg:h-[7vh] xl:h-[5vh] border-0 justify-start space-x-2 m-2">
+            <div class="w-[7%] rounded-md border-gray-500 bg-gradient-to-l from-yellow-200"></div>
+            <div class="md:w-[35%] lg:w-[45%] rounded-md border-gray-500 bg-red-100 text-center lg:text-lg py-2 lg:py-1 px-4 lg:px-2 text-red-600">IT Change Management</div>
+            <div class="md:w-[25%] lg:w-[30%] rounded-md border-gray-500  bg-yellow-100 text-center lg:text-lg py-2 lg:py-1 px-4 lg:px-2 text-pink-600">Purchase Order</div>
+          </div>
+        </div>
+        <div class="flex flex-col w-full xl:w-[90%] m-2 space-y-3 lg:box-border pt-12 sm:h-[40vh] lg:h-[45vh]">
+          <h1 class="text-2xl pr-2 md:pr-0 md:text-3xl lg:text-4xl font-sans font-bold">An End-To-End Workflow Platform For All Your Business Needs</h1>
+          <span class="md:text-lg font-sans md:font-medium xl:font-normal">1000+ companies-from Startups to Fortune 500s use BoloForms Approvals to build and manage business processes across departments.
           </span>
-          <button class="flex items-center text-white bg-violet-500 mx-auto px-5 py-2 rounded-md font-sans font-normal md:text-xl hover:bg-violet-600">
+          <button class="flex items-center text-white bg-violet-500 hover:duration-500 mx-auto xl:mx-0 xl:w-fit px-5 py-2 rounded-md font-sans font-normal md:text-xl hover:bg-violet-600">
             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="mr-4 text-xl " height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M477.64 38.26a4.75 4.75 0 00-3.55-3.66c-58.57-14.32-193.9 36.71-267.22 110a317 317 0 00-35.63 42.1c-22.61-2-45.22-.33-64.49 8.07C52.38 218.7 36.55 281.14 32.14 308a9.64 9.64 0 0010.55 11.2l87.31-9.63a194.1 194.1 0 001.19 19.7 19.53 19.53 0 005.7 12L170.7 375a19.59 19.59 0 0012 5.7 193.53 193.53 0 0019.59 1.19l-9.58 87.2a9.65 9.65 0 0011.2 10.55c26.81-4.3 89.36-20.13 113.15-74.5 8.4-19.27 10.12-41.77 8.18-64.27a317.66 317.66 0 0042.21-35.64C441 232.05 491.74 99.74 477.64 38.26zM294.07 217.93a48 48 0 1167.86 0 47.95 47.95 0 01-67.86 0z"></path><path d="M168.4 399.43c-5.48 5.49-14.27 7.63-24.85 9.46-23.77 4.05-44.76-16.49-40.49-40.52 1.63-9.11 6.45-21.88 9.45-24.88a4.37 4.37 0 00-3.65-7.45 60 60 0 00-35.13 17.12C50.22 376.69 48 464 48 464s87.36-2.22 110.87-25.75A59.69 59.69 0 00176 403.09c.37-4.18-4.72-6.67-7.6-3.66z"></path></svg>
             BoloForms Premium</button>
         </div>
       </main>
     </section>
-<!-- From this section feb 19 -->
-    <section class="bg-violet-500 w-full  h-[70vh] sm:h-[65vh] md:h-[70vh] flex flex-col mx-auto justify-center items-center space-y-6">
+    <!-- patrick section feedback-->
+    <section class="bg-violet-500 w-full  h-full sm:h-[65vh] md:h-fit flex flex-col mx-auto justify-center items-center space-y-6">
       <div class="text-white font-sans font-normal md:text-xl w-[90%] md:w-[70%] py-6 my-2">"Boloforms has completely revolutionized our form approval process. It is incredibly easy to use and simple to set up, saving us countless hours of work. We can now easily manage all of our form approvals, assign tasks to different team members and track progress all in one place. Boloforms is a must-have for any business looking for an efficient Form Approval Workflow Software!"
       </div>
       <span class=""><img class="h-6 md:h-8 md:my-2" src="https://www.boloforms.com/_next/static/media/Stars.885edd0c.svg" alt="logo"></span>
@@ -277,7 +324,7 @@
         </div>
       </div>
     </section>
-
+    <!-- Automated Workflows section -->
     <section class="flex flex-col w-[90%] md:w-[80%] lg:w-[95%]  items-center h-full lg:h-[80vh] mx-auto my-12 md:my-24 border-[1px] rounded-lg py-12 space-y-4 md:space-y-0 px-2 md:px-0">
       <div class="flex flex-col items-center w-full space-y-2">
         <h1 class="font-semibold text-3xl lg:text-3xl xl:text-4xl">Fully Automated Workflows</h1>
@@ -327,9 +374,9 @@
       </main>
       <div class="mx-2"><span class="text-lg md:text-xl lg:text-xl xl:text-2xl">BoloForms workflows acts as a glue holding together all your approval processes.</span></div>
     </section>
-
-    <section class="flex flex-col my-12 w-[90%] lg:w-[80%] mx-auto ">
-      <main class="flex flex-col  md:flex-row justify-center shadow-gray-200 shadow-2xl rounded-lg md:h-[50vh]  items-center">
+    <!-- feedback section rama -->
+    <section class="flex flex-col my-12 w-[90%] lg:w-[80%] mx-auto">
+      <main class="flex flex-col md:flex-row justify-center shadow-gray-200 shadow-2xl rounded-lg md:h-fit md:py-2  items-center">
         <div class="flex md:w-[20%] md:mx-6 lg:mr-12"><img class="h-32 w-36 rounded-full" src="https://www.boloforms.com/_next/static/media/raman.e5477e92.jpeg" alt="logo"></div>
         <span class="flex md:hidden justify-center font-medium font-sans text-lg">Raman R</span>
         <div class=" flex flex-col w-[80%] my-2">
@@ -339,10 +386,10 @@
         </div>
       </main>
 
-      <main class="flex flex-col items-center md:h-[20vh] my-16 ">
+      <main class=" flex flex-col items-center md:h-[20vh] my-8 ">
         <div class="flex flex-col items-center md:flex-row w-full justify-center space-y-2 md:space-y-0 md:space-x-4">
-          <button class="flex items-center border-2 border-violet-600 hover:bg-violet-600 bg-violet-500 font-sans text-base md:text-lg font-medium text-white px-5 py-2 rounded-md"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" class="mr-4 text-xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M537.6 226.6c4.1-10.7 6.4-22.4 6.4-34.6 0-53-43-96-96-96-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32c-88.4 0-160 71.6-160 160 0 2.7.1 5.4.2 8.1C40.2 219.8 0 273.2 0 336c0 79.5 64.5 144 144 144h368c70.7 0 128-57.3 128-128 0-61.9-44-113.6-102.4-125.4zm-132.9 88.7L299.3 420.7c-6.2 6.2-16.4 6.2-22.6 0L171.3 315.3c-10.1-10.1-2.9-27.3 11.3-27.3H248V176c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v112h65.4c14.2 0 21.4 17.2 11.3 27.3z"></path></svg>Install For Free</button>
-          <button class="flex items-center border-2 text-violet-500 font-sans text-base md:text-lg font-medium px-5 py-2 rounded-md border-violet-500">
+          <button class="flex items-center border-2 border-violet-600 hover:duration-500 hover:bg-violet-600 bg-violet-500 font-sans text-base md:text-lg font-medium text-white px-5 py-2 rounded-md"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" class="mr-4 text-xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M537.6 226.6c4.1-10.7 6.4-22.4 6.4-34.6 0-53-43-96-96-96-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32c-88.4 0-160 71.6-160 160 0 2.7.1 5.4.2 8.1C40.2 219.8 0 273.2 0 336c0 79.5 64.5 144 144 144h368c70.7 0 128-57.3 128-128 0-61.9-44-113.6-102.4-125.4zm-132.9 88.7L299.3 420.7c-6.2 6.2-16.4 6.2-22.6 0L171.3 315.3c-10.1-10.1-2.9-27.3 11.3-27.3H248V176c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v112h65.4c14.2 0 21.4 17.2 11.3 27.3z"></path></svg>Install For Free</button>
+          <button class="flex items-center border-2 text-violet-500  hover:text-violet-700 font-sans text-base md:text-lg font-medium px-5 py-2 rounded-md border-violet-500">
             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="mr-4 text-xl " height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M477.64 38.26a4.75 4.75 0 00-3.55-3.66c-58.57-14.32-193.9 36.71-267.22 110a317 317 0 00-35.63 42.1c-22.61-2-45.22-.33-64.49 8.07C52.38 218.7 36.55 281.14 32.14 308a9.64 9.64 0 0010.55 11.2l87.31-9.63a194.1 194.1 0 001.19 19.7 19.53 19.53 0 005.7 12L170.7 375a19.59 19.59 0 0012 5.7 193.53 193.53 0 0019.59 1.19l-9.58 87.2a9.65 9.65 0 0011.2 10.55c26.81-4.3 89.36-20.13 113.15-74.5 8.4-19.27 10.12-41.77 8.18-64.27a317.66 317.66 0 0042.21-35.64C441 232.05 491.74 99.74 477.64 38.26zM294.07 217.93a48 48 0 1167.86 0 47.95 47.95 0 01-67.86 0z"></path><path d="M168.4 399.43c-5.48 5.49-14.27 7.63-24.85 9.46-23.77 4.05-44.76-16.49-40.49-40.52 1.63-9.11 6.45-21.88 9.45-24.88a4.37 4.37 0 00-3.65-7.45 60 60 0 00-35.13 17.12C50.22 376.69 48 464 48 464s87.36-2.22 110.87-25.75A59.69 59.69 0 00176 403.09c.37-4.18-4.72-6.67-7.6-3.66z"></path></svg>
             BoloForms Premium</button>
         </div>
@@ -366,9 +413,9 @@
       </main>
 
     </section>
-
-    <section class="flex flex-col  my-12 w-[90%] lg:w-[80%] mx-auto">
-      <main class="flex flex-col md:flex-row justify-center shadow-gray-200 shadow-2xl rounded-lg md:h-[45vh] lg:h-[40vh] items-center py-6 md:py-0">
+    <!-- feedback section john -->
+    <section class="flex flex-col  my-12 w-[95%] lg:w-[80%] mx-auto">
+      <main class="flex flex-col md:flex-row justify-center shadow-gray-200 shadow-2xl rounded-lg md:h-fit md:py-2  lg:h-[40vh] items-center py-6">
         <div class="flex md:w-[20%] md:mx-6 lg:mr-12"><img class="h-32 w-36 rounded-full" src="https://www.boloforms.com/_next/static/media/john.39efe227.jpeg" alt="logo"></div>
         <span class="flex md:hidden font-medium font-sans text-lg">John M.</span>
         <div class=" flex flex-col w-[80%] mb-4">
@@ -378,8 +425,8 @@
       </div>
     </main>
     </section>
-
-    <section class="flex flex-col lg:flex-row w-[90%] lg:w-[80%] lg:h-[100vh] mx-auto space-x-2 justify-center border-[1px] rounded-lg shadow-2xl my-32">
+    <!-- Money back guarantee section -->
+    <section class="flex flex-col lg:flex-row w-[95%] p-2 lg:w-[95%] lg:h-[100vh] xl:h-[90vh] mx-auto space-x-2 justify-center border-[1px] rounded-lg shadow-2xl my-32 md:my-16">
       <div class="md:w-1/6 flex justify-center"><span><img class="h-24 my-2" src="https://www.boloforms.com/_next/static/media/moneyback-gurantee.8417d885.png" alt=""></span></div>
       <main class="w-full flex flex-col space-y-6 h-full pr-8 ">
         <div class="flex-col flex space-y-1">
@@ -388,7 +435,7 @@
           </span>
         </div>
 
-        <div class="flex flex-col space-y-4 font-normal text-base md:text-lg font-sans">
+        <div class="flex flex-col space-y-4 font-normal text-base md:text-lg lg:text-xl font-sans">
           <span>Here's why I'm offering this -</span>
           <span>I have seen the power of automating your business workflows. Take some time out of your busy schedule today and see what all things can be automated in your workflows.</span>
           <span>You will find that most of your time is going in doing things that could be done better by automating. You just have to give it a shot!</span>
@@ -403,49 +450,49 @@
         </div>
       </main>
     </section>
-
-    <section class="flex flex-col w-[90%] mx-auto xl:h-[100vh] my-20 items-center">
-      <div class="flex flex-col items-center my-6 h-[30vh]">
+    <!-- Awards winning sport -->
+    <section class="flex flex-col w-[90%] xl:w-[95%] mx-auto xl:h-[100vh] my-20 items-center">
+      <div class="flex flex-col items-center my-6 h-[30vh] md:h-fit">
         <span><img class="h-8 lg:h-12" src="https://www.boloforms.com/_next/static/media/stars.6ce54309.png" alt=""></span>
         <span class="text-2xl md:text-3xl lg:text-5xl font-sans font-bold">Awards-winning support<span class="text-violet-500">.</span></span>
         <span class="text-lg text-center sm:text-start lg:text-center  md:text-xl lg:text-2xl font-sans font-normal my-4">Best-in-class support. We're always here to help - here's how to connect.</span>
       </div>
 
-      <main class="flex flex-col xl:flex-row xl:justify-center w-[95%] space-y-12 xl:space-y-0 xl:space-x-12">
+      <main class="flex flex-col xl:flex-row xl:justify-center w-[95%] xl:w-full space-y-12 xl:space-y-0 xl:space-x-6">
         <div class="flex flex-col lg:flex-row space-y-12 lg:space-y-0 lg:space-x-6 w-full ">
-          <div class="flex flex-col justify-center items-center space-y-2 shadow-lg shadow-slate-300 rounded-lg w-full h-[50vh]">
+          <div class="flex flex-col justify-center items-center space-y-2 shadow-lg shadow-slate-300 rounded-lg w-full lg:h-[50vh] md:h-[40vh]">
             <span><img class="h-40" src="https://www.boloforms.com/_next/static/media/live-chat-support.8700dc17.png" alt=""></span>
             <span class="font-bold font-sans text-2xl">? Whatsapp Chat</span>
             <span class="font-sans text-lg">Ask a question right now</span>
-            <div class="py-4"><button class="px-12 transition duration-[250ms] hover:text-white py-1 text-lg cursor-pointer hover:bg-violet-500 border-2 border-violet-500 rounded-lg">Start a chat</button></div>
+            <div class="py-4"><button class="px-12 transition duration-[250ms] hover:text-white py-1 text-lg cursor-pointer hover:bg-violet-500 border-2 border-violet-500 rounded-lg mb-5">Start a chat</button></div>
           </div>
           
-          <div class="flex flex-col justify-center items-center space-y-2 shadow-lg shadow-slate-300 rounded-lg w-full h-[50vh]">
+          <div class="flex flex-col justify-center items-center space-y-2 shadow-lg shadow-slate-300 rounded-lg w-full md:h-[40vh] lg:h-[50vh]">
             <span><img class="h-40" src="https://www.boloforms.com/_next/static/media/support-email.d67bf660.png" alt=""></span>
             <span class="font-bold font-sans text-2xl">? Email</span>
             <span class="font-sans text-lg">Get in touch by email</span>
-            <div class="py-4"><button class="px-12 transition duration-[250ms] hover:text-white py-1 text-lg cursor-pointer hover:bg-violet-500 border-2 border-violet-500 rounded-lg">Send an Email</button></div>
+            <div class="py-4"><button class="px-12 transition duration-[250ms] hover:text-white py-1 text-lg cursor-pointer hover:bg-violet-500 border-2 border-violet-500 rounded-lg mb-5">Send an Email</button></div>
           </div>
         </div>
 
         <div class="flex flex-col lg:flex-row space-y-12 lg:space-y-0 lg:space-x-6 w-full">
-          <div class="flex flex-col justify-center items-center space-y-2 shadow-lg shadow-slate-300 rounded-lg w-full h-[50vh]">
+          <div class="flex flex-col justify-center items-center space-y-2 shadow-lg shadow-slate-300 rounded-lg w-full md:h-[40vh] lg:h-[50vh]">
             <span><img class="h-40" src="https://www.boloforms.com/_next/static/media/helpcenter.1d93444b.png" alt=""></span>
             <span class="font-bold font-sans text-2xl">? Help Center</span>
             <span class="font-sans text-lg">In Depth Guides</span>
-            <div class="py-4"><button class="px-12 transition duration-[250ms] hover:text-white py-1 text-lg cursor-pointer hover:bg-violet-500 border-2 border-violet-500 rounded-lg">Read Articles</button></div>
+            <div class="py-4"><button class="px-12 transition duration-[250ms] hover:text-white py-1 text-lg cursor-pointer hover:bg-violet-500 border-2 border-violet-500 rounded-lg mb-5">Read Articles</button></div>
           </div>
         
-          <div class="flex flex-col justify-center items-center space-y-2 shadow-lg shadow-slate-300 rounded-lg w-full h-[50vh]">
+          <div class="flex flex-col justify-center items-center space-y-2 shadow-lg shadow-slate-300 rounded-lg w-full md:h-[40vh] lg:h-[50vh]">
             <span><img class="h-40" src="https://www.boloforms.com/_next/static/media/book-time.934f28c8.png" alt=""></span>
             <span class="font-bold font-sans text-2xl">? Google Meet</span>
             <span class="font-sans text-lg">Guided Support and Q&A</span>
-            <div class="py-4"><button class="px-12 transition duration-[250ms] hover:text-white py-1 text-lg cursor-pointer hover:bg-violet-500 border-2 border-violet-500 rounded-lg">Book a time</button></div>
+            <div class="py-4"><button class="px-12 transition duration-[250ms] hover:text-white py-1 text-lg cursor-pointer hover:bg-violet-500 border-2 border-violet-500 rounded-lg mb-5">Book a time</button></div>
           </div>
         </div>
       </main>
     </section>
-
+    <!-- Frequently asked questions -->
     <section class="w-[90%] mx-auto flex flex-col items-center xl:h-[90vh] space-y-6 lg:my-16">
       <div class="my-2"><span class="font-bold text-2xl md:text-4xl">Frequently Asked questions</span></div>
       <main class="flex flex-col lg:flex-row  space-y-6 lg:space-y-0 lg:space-x-6 lg:w-[95%]">
@@ -516,13 +563,13 @@
           </div>
           <div>
             <p class="relative flex border-[1px] rounded-lg text-xl text-gray-600 border-gray-300 px-4 py-2">
-              <span class="font-semibold pr-2 md:pr-4">Can Form Respondent or Recipients edit a form submission?</span>
+              <span class="font-semibold pr-2 md:pr-4 xl:pr-6">Can Form Respondent or Recipients edit a form submission?</span>
               <span class="absolute right-0 mx-2 cursor-pointer"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-3xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg></span></p>
           </div>
         </div>
       </main>
     </section>
-
+    <!-- Customers who are trusting us -->
     <section class="flex flex-col items-center w-[90%] mx-auto mt-12 lg:my-0  space-y-8 lg:space-y-6">
       <div class="flex flex-col items-center lg:space-y-3">
         <div class="flex flex-row items-center space-x-1 justify-center py-4">
@@ -538,8 +585,8 @@
         </div>
       </main>
     </section>
-
-    <section class=" bg-gray-50 w-full space-y-12 lg:space-y-0 ">
+    <!-- Footer section -->
+    <section class=" bg-gray-50 w-full space-y-12 lg:space-y-0 h-full">
       <main class="flex flex-col lg:flex-row  w-[90%] lg:h-[70vh] xl:h-[55vh] mx-auto pt-12 space-y-6 lg:space-y-0">
         <div class="flex flex-col  items-start  w-[85%] mx-auto sm:w-fit lg:w-full lg:mx-6  space-y-6">
           <div class="flex flex-row space-x-3 cursor-pointer items-center">
