@@ -1,10 +1,14 @@
-{
+{ 
+  "homepage": "https://Nitinkumar2905.github.io/BoloForms-project",
   "name": "clone-project",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start" :"vite"
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
+    "start" :"vite",
+    "build" :"vite build"
   },
   "keywords": [],
   "author": "",
